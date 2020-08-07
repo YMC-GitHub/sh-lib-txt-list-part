@@ -1,0 +1,6 @@
+# some dev files for ymc
+dev/
+# some shell lib debug log for ymc
+debug-log.txt
+# some secret data for ymc
+secret/
