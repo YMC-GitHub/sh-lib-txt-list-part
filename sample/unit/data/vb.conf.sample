@@ -1,0 +1,21 @@
+# set master name and ip
+# format:vm_name=vm_ip
+[master]
+k8s-node-18=192.168.56.18
+
+# set node name and ip
+# format:vm_name=vm_ip
+[node]
+k8s-node-19=192.168.56.19
+#k8s-node-20=192.168.56.20
+
+# set hub conf
+[hub]
+hub_address=hub.c.163.com
+hub_user_u=hualei03042013@163.com
+hub_user_p=xxx
+
+# set deploy conf
+[deploy]
+my_app_name_prefix=getstartedlab
+my_stack_compose_file_dir=/ymc/bin/stack-quick-start
